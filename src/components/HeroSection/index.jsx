@@ -1,9 +1,9 @@
 import React from 'react'
-import homeImg from '/hero-section-img.png';
+import homeImg from '../../assets/hero-section-img.png';
 import Rectangle from '../Rectangle';
 const HeroSection = () => {
   return (
-    <div className="container h-dvh ">
+    <div className="container  ">
         
 <img src={homeImg} alt="Hero Section Image" className="mx-auto "/>
 
