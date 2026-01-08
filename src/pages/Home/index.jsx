@@ -3,7 +3,7 @@ import Header from '../../components/Header'
 import HeroSection from '../../components/HeroSection'
 import HotelBar from '../../components/HotelBar'
 import CardsSection from '../../components/CardsSection'
- 
+ import DecoratingImg from '../../components/DecoratingImg'
  
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
    <HeroSection />
    <HotelBar />
    <CardsSection />
+   <DecoratingImg />
    </>
   )
 }
